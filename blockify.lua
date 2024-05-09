@@ -13,6 +13,7 @@ local function receive()
     file.close()
     return data.name
 end
+rednet.open("back")
 ::loop::
 mainname = read()
 term.clear()
