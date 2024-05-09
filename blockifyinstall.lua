@@ -26,8 +26,6 @@ if not checkList("blockify.lua", files) or true then
     shell.run("rm /blockify.lua")
     shell.run("rm /aukit.lua")
     shell.run("rm /austream.lua")
-    term.clear()
-    term.setCursorPos()
   end
 end
 shell.run("wget https://raw.githubusercontent.com/MCJack123/AUKit/master/aukit.lua aukit.lua")
